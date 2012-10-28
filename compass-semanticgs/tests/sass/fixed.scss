@@ -1,0 +1,65 @@
+@import '../../stylesheets/compass-semanticgs';
+
+
+//////////
+// GRID //
+//////////
+
+// Specify the number of columns and set column and gutter widths
+$columns: 12;
+$column-width: 60px;
+$gutter-width: 20px;
+
+// Uncomment the definition below for a percentage-based layout
+// $total-width: 100%;
+
+
+////////////
+// LAYOUT //
+////////////
+
+// center the contents
+div.center {
+	@include container;
+	overflow: hidden;
+}
+
+// header
+header#top {
+	@include column(12);
+	margin-bottom: 1em;
+}
+
+// main and sidebar
+#maincolumn {
+	@include column(9);
+}
+#sidebar {
+	@include column(3);
+}
+
+footer#bottom {
+	@include span(12);
+}
+
+
+
+// Bootstrap demo...
+.container {
+	background: wheat;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+header {
+	background-color: wheat;
+}
+
+article {
+	background-color: lavender;
+}
+aside {
+	background-color: lightblue;
+}
+footer {
+	background-color: gainsboro;
+}

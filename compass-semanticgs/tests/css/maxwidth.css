@@ -1,0 +1,391 @@
+/* line 41, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 27, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 31, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+body:after {
+  clear: both;
+}
+
+/* line 109, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 113, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid {
+  display: block;
+  width: 102.08333%;
+  margin: 0 -1.04167%;
+  *zoom: 1;
+}
+/* line 50, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid {
+  *width: 102.08328%;
+  *margin: 0 -1.04172%;
+}
+/* line 27, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid:before, .row-fluid:after {
+  content: "";
+  display: table;
+}
+/* line 31, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid:after {
+  clear: both;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span1 {
+  display: inline;
+  float: left;
+  width: 6.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span1 {
+  *width: 6.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span2 {
+  display: inline;
+  float: left;
+  width: 14.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span2 {
+  *width: 14.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span3 {
+  display: inline;
+  float: left;
+  width: 22.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span3 {
+  *width: 22.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span4 {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span4 {
+  *width: 31.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span5 {
+  display: inline;
+  float: left;
+  width: 39.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span5 {
+  *width: 39.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span6 {
+  display: inline;
+  float: left;
+  width: 47.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span6 {
+  *width: 47.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span7 {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span7 {
+  *width: 56.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span8 {
+  display: inline;
+  float: left;
+  width: 64.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span8 {
+  *width: 64.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span9 {
+  display: inline;
+  float: left;
+  width: 72.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span9 {
+  *width: 72.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span10 {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span10 {
+  *width: 81.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span11 {
+  display: inline;
+  float: left;
+  width: 89.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span11 {
+  *width: 89.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 116, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row-fluid .span12 {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row-fluid .span12 {
+  *width: 97.91662%;
+  *margin: 0 1.04162%;
+}
+
+/* line 122, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row {
+  display: block;
+  width: 102.08333%;
+  margin: 0 -1.04167%;
+  *zoom: 1;
+}
+/* line 50, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row {
+  *width: 102.08328%;
+  *margin: 0 -1.04172%;
+}
+/* line 27, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+/* line 31, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row:after {
+  clear: both;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span1 {
+  display: inline;
+  float: left;
+  width: 6.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span1 {
+  *width: 6.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span2 {
+  display: inline;
+  float: left;
+  width: 14.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span2 {
+  *width: 14.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span3 {
+  display: inline;
+  float: left;
+  width: 22.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span3 {
+  *width: 22.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span4 {
+  display: inline;
+  float: left;
+  width: 31.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span4 {
+  *width: 31.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span5 {
+  display: inline;
+  float: left;
+  width: 39.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span5 {
+  *width: 39.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span6 {
+  display: inline;
+  float: left;
+  width: 47.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span6 {
+  *width: 47.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span7 {
+  display: inline;
+  float: left;
+  width: 56.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span7 {
+  *width: 56.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span8 {
+  display: inline;
+  float: left;
+  width: 64.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span8 {
+  *width: 64.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span9 {
+  display: inline;
+  float: left;
+  width: 72.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span9 {
+  *width: 72.91662%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span10 {
+  display: inline;
+  float: left;
+  width: 81.25%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span10 {
+  *width: 81.24995%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span11 {
+  display: inline;
+  float: left;
+  width: 89.58333%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span11 {
+  *width: 89.58328%;
+  *margin: 0 1.04162%;
+}
+/* line 125, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.row .span12 {
+  display: inline;
+  float: left;
+  width: 97.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 .row .span12 {
+  *width: 97.91662%;
+  *margin: 0 1.04162%;
+}
+
+/* line 22, ../sass/maxwidth.scss */
+div.center {
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 29, ../sass/maxwidth.scss */
+header#top {
+  margin-bottom: 1em;
+}
+
+/* line 34, ../sass/maxwidth.scss */
+#maincolumn {
+  display: inline;
+  float: left;
+  width: 72.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 #maincolumn {
+  *width: 72.91662%;
+  *margin: 0 1.04162%;
+}
+
+/* line 37, ../sass/maxwidth.scss */
+#sidebar {
+  display: inline;
+  float: left;
+  width: 22.91667%;
+  margin: 0 1.04167%;
+}
+/* line 61, /var/www/Designs/GithubRepo/semantic.gs/compass-semanticgs/tests/sass/../../stylesheets/_compass-semanticgs.scss */
+.lt-ie8 #sidebar {
+  *width: 22.91662%;
+  *margin: 0 1.04162%;
+}
