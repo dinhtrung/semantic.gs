@@ -43,15 +43,20 @@ body {
 	@include clearfix();
 }
 
-@mixin row($cols: $columns) {
+@mixin row-base($cols: $columns) {
 	display: block;
 	width: $total-width*(($gutter-width + gridsystem-width($cols))/gridsystem-width($cols));
+	@debug "Gutter width: " + $gutter-width + " Column width: " + $column-width +  "Total width: " + $total-width + " ==> GS Width" + gridsystem-width($cols) + " Result Width: " + $total-width*(($gutter-width + gridsystem-width($cols))/gridsystem-width($cols));
 	margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($cols))*-1);
 	.lt-ie8 & {
 		*width: $total-width*(($gutter-width + gridsystem-width($cols))/gridsystem-width($cols))-$correction;
 		*margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($cols))*-1)-$correction;
 	}
 	@include clearfix();
+}
+@mixin row($cols: $columns){
+	$total-width: total-width($cols);
+	@include row-base($cols);
 }
 @mixin column($x,$cols: $columns) {
 	display: inline;
@@ -100,7 +105,7 @@ body {
 ////////////////
 @mixin row-fluid($cols: $columns){
 	$total-width: 100%;
-	@include row($cols);
+	@include row-base($cols);
 }
 
 ///////////////////////////////////
@@ -124,6 +129,11 @@ body {
 	@for $i from 1 through $columns {
 		.span#{$i}{
 			@include column($i);
+			.row {
+				@for $j from 1 through $i {
+					@include column($j, $i);
+				}
+			}
 		}
 	}
 }
